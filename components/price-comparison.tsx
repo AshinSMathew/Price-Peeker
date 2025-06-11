@@ -45,7 +45,7 @@ export default function PriceComparison() {
         setResults(data)
       }
     } catch (err) {
-      setError("Network error. Please try again.")
+      console.error('Network request failed:', err)
     } finally {
       setLoading(false)
     }
@@ -59,8 +59,6 @@ export default function PriceComparison() {
     if (!results) return 0
     return Math.abs(results.amazon_price - results.flipkart_price)
   }
-
-  const bestDeal = results?.cheaper_platform
 
   return (
     <div className="max-w-6xl mx-auto">
