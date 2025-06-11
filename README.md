@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Price Peeker - Price Comparison(Amazon vs Flipkart)
 
-## Getting Started
+Price Peeker is a sleek and intuitive web application that allows users to quickly compare prices of products across Amazon and Flipkart.
 
-First, run the development server:
+Built with **Next.js**, **TypeScript**, **Tailwind CSS**, and powered by a **FastAPI backend** `https://price-peek-api.vercel.app/`, the app fetches real-time pricing data using **ScraperAPI**. Whether you're shopping for a smartphone or a laptop, Price Peeker helps you make smarter buying decisions with ease.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The application is fully responsive, optimized for performance, and designed to offer a smooth user experience across devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔗 Live Demo (Optional)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> [https://price-peek-self.vercel.app/](https://price-peek-self.vercel.app/)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧩 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Search any product name and compare prices
+- Clean, responsive UI built in TypeScript
+- Fetches data from `https://price-peek-api.vercel.app/` API
+- Supports both Amazon and Flipkart results
+- Displays product title, price, and link to product page
