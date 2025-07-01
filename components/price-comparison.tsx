@@ -36,7 +36,7 @@ export default function PriceComparison() {
     setResults(null)
 
     try {
-      const response = await fetch(`https://price-peek-api.vercel.app/compare/${encodeURIComponent(searchQuery)}`)
+      const response = await fetch(`https://pricepeeker-api.onrender.com/compare/${encodeURIComponent(searchQuery)}`)
       const data: ApiResponse = await response.json()
 
       if (data.error) {
